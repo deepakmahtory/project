@@ -75,7 +75,7 @@ const TableF = ({ data }) => {
     })
     .map((row) => ({
       ...row,
-      // Include a property to indicate whether each column is visible or not
+      
       _visibility: columnVisibility,
     }));
 
@@ -143,7 +143,7 @@ const TableF = ({ data }) => {
                   />
                 </TableCell>
               )}
-              {/* Add more columns as needed */}
+             
               <TableCell>
                 <FormControlLabel
                   control={
