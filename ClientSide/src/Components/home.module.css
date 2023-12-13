@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: aquamarine;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+    
+}
+
+.forms{
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms form{
+    height: 600px;
+    width: 600px;
+    background-color: bisque;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px 8px whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.forms form button{
+    width: 150px;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: azure;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(236, 122, 122);
+}
+
+.tableDiv{
+   
+    height: 100vh;
+    background-color: rgb(153, 181, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+table{
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 0px 8px 5px white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+}
